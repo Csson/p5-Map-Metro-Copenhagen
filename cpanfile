@@ -1,7 +1,4 @@
-requires 'perl', '5.020000';
+requires 'perl', '5.014000';
 
-requires 'Map::Metro', '0.1700';
-
-on 'test' => sub {
-    requires 'Test::NoTabs';
-};
+requires 'Moose', '2.000';
+requires 'Map::Metro', '0.2201';
