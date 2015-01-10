@@ -45,15 +45,15 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen/issues"
+         "web" : "https://github.com/Csson/p5-Map-Metro-Copenhagen/issues"
       },
       "homepage" : "https://metacpan.org/release/Map-Metro-Plugin-Map-Copenhagen",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen.git",
-         "web" : "https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen"
+         "url" : "https://github.com/Csson/p5-Map-Metro-Copenhagen.git",
+         "web" : "https://github.com/Csson/p5-Map-Metro-Copenhagen"
       }
    },
-   "version" : "0.2003"
+   "version" : "0.2004"
 }
 

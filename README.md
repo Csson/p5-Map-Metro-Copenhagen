@@ -4,7 +4,7 @@ Map::Metro::Plugin::Map::Copenhagen - Map::Metro map for Copenhagen
 
 # VERSION
 
-Version 0.2003, released 2015-01-10.
+Version 0.2004, released 2015-01-10.
 
 # SYNOPSIS
 
@@ -23,7 +23,7 @@ This map includes:
 
 # SOURCE
 
-[https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen](https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen)
+[https://github.com/Csson/p5-Map-Metro-Copenhagen](https://github.com/Csson/p5-Map-Metro-Copenhagen)
 
 # HOMEPAGE
 
