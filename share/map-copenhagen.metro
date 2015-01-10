@@ -27,8 +27,8 @@ Lufthavnen
 --transfers
 
 --lines
-M1|M1|M1
-M2|M2|M2
+M1|M1|M1|color:#397c5d,width:8
+M2|M2|M2|color:#e8c929,width:8
 
 --segments
 M1,M2|Vanløse|Flintholm
