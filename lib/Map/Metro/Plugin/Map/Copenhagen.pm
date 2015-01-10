@@ -1,26 +1,33 @@
-use 5.20.0;
+use 5.14.0;
 
-package Map::Metro::Plugin::Map::Copenhagen {
+package Map::Metro::Plugin::Map::Copenhagen;
 
-    use Moose;
-    use File::ShareDir 'dist_dir';
-    use Path::Tiny;
-    with 'Map::Metro::Plugin::Map';
+# VERSION
+# ABSTRACT: Map::Metro map for Copenhagen
 
-    has '+mapfile' => (
-        default => sub { path(dist_dir('Map-Metro-Plugin-Map-Copenhagen'))->child('map-copenhagen.metro')->absolute },
-    );
+use Moose;
+with 'Map::Metro::Plugin::Map';
+
+has '+mapfile' => (
+    default => 'map-copenhagen.metro',
+);
+sub map_version {
+    return $VERSION;
 }
+sub map_package {
+    return __PACKAGE__;
+}
+
+1;
+
 
 1;
 
 __END__
 
+=pod
+
 =encoding utf-8
-
-=head1 NAME
-
-Map::Metro::Plugin::Map::Copenhagen - Map::Metro map for Copenhagen
 
 =head1 SYNOPSIS
 
@@ -33,19 +40,11 @@ See L<Map::Metro> for usage information.
 
 =head1 Status
 
-Per 2014-dec-13 it contains both lines of the Copenhagen metro (L<wikipedia|https://en.wikipedia.org/wiki/Copenhagen_metro>)
+This map includes:
 
-=head1 AUTHOR
+=for :list
+* Both lines of the Copenhagen metro (L<wikipedia|https://en.wikipedia.org/wiki/Copenhagen_metro>)
 
-Erik Carlsson E<lt>info@code301.comE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2014 - Erik Carlsson
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+=for HTML <p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Copenhagen/master/static/images/copenhagen.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Copenhagen/master/static/images/copenhagen.png" style="max-width: 600px" /></a></p>
 
 =cut
