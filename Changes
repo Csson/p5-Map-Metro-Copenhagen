@@ -1,4 +1,25 @@
 Revision history for Map-Metro-Plugin-Map-Copenhagen
 
 {{$NEXT}}
-	- Initial release.
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+ - Added line information
+ - Added visualization
+
+ [Enhancements]
+ - Changed to new Map role api
+
+ [Meta]
+ - Added github to meta
+ - Adapted to new build style
+ - Bumped Map::Metro requirement
+
+ [New Features]
+
+ [Revision]
+
+0.2002 2014-12-13T02:47:57Z CET
+ - Initial release.

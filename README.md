@@ -2,6 +2,10 @@
 
 Map::Metro::Plugin::Map::Copenhagen - Map::Metro map for Copenhagen
 
+# VERSION
+
+Version 0.2003, released 2015-01-10.
+
 # SYNOPSIS
 
     use Map::Metro;
@@ -13,17 +17,25 @@ See [Map::Metro](https://metacpan.org/pod/Map::Metro) for usage information.
 
 # Status
 
-Per 2014-dec-13 it contains both lines of the Copenhagen metro ([wikipedia](https://en.wikipedia.org/wiki/Copenhagen_metro))
+This map includes:
+
+- Both lines of the Copenhagen metro ([wikipedia](https://en.wikipedia.org/wiki/Copenhagen_metro))
+
+# SOURCE
+
+[https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen](https://github.com/Csson/p5-Map-Metro-Plugin-Map-Copenhagen)
+
+# HOMEPAGE
+
+[https://metacpan.org/release/Map-Metro-Plugin-Map-Copenhagen](https://metacpan.org/release/Map-Metro-Plugin-Map-Copenhagen)
 
 # AUTHOR
 
 Erik Carlsson <info@code301.com>
 
-# COPYRIGHT
+# COPYRIGHT AND LICENSE
 
-Copyright 2014 - Erik Carlsson
+This software is copyright (c) 2015 by Erik Carlsson.
 
-# LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
