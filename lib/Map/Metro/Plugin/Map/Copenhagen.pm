@@ -47,4 +47,10 @@ This map includes:
 
 =for HTML <p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Copenhagen/master/static/images/copenhagen.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Copenhagen/master/static/images/copenhagen.png" style="max-width: 600px" /></a></p>
 
+=head1 SEE ALSO
+
+=for :list
+* L<Map::Metro>
+* L<Task::MapMetro::Maps>
+
 =cut
