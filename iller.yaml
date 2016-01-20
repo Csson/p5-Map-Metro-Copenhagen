@@ -26,6 +26,7 @@ plugins:
      - sudo apt-get update -qq
      - sudo apt-get install -y graphviz
     pre_install: 
+     - cpanm Test::Stream --force
      - cpanm GraphViz2 -v
 
 ---
