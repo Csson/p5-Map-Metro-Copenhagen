@@ -9,13 +9,21 @@ Revision history for Map-Metro-Plugin-Map-Copenhagen
 
  [Enhancements]
 
- [Other Changes]
-  - Rebuilt with current Dist::Iller::Config::Author::CSSON.
-
  [New Features]
 
+ [Other Changes]
+
  [Requirements]
-  - Require the same Perl version that Map::Metro needs (5.16).
+  - Add missing prereqs (after removing cpanfile): Moose and Map::Metro::Plugin::Map
+
+ [Testing]
+
+0.2005 2016-01-21T00:10:33Z UTC
+ [Other Changes]
+ - Rebuilt with current Dist::Iller::Config::Author::CSSON.
+
+ [Requirements]
+ - Require the same Perl version that Map::Metro needs (5.16).
 
 0.2004 2015-01-10T23:00:09Z CET
  [Meta]
