@@ -14,7 +14,8 @@ Revision history for Map-Metro-Plugin-Map-Copenhagen
 
  [New Features]
 
- [Revision]
+ [Requirements]
+  - Require the same Perl version that Map::Metro needs (5.16).
 
 0.2004 2015-01-10T23:00:09Z CET
  [Meta]

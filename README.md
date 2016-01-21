@@ -6,7 +6,7 @@ Map::Metro::Plugin::Map::Copenhagen - Map::Metro map for Copenhagen
 
 # VERSION
 
-Version 0.2005, released 2016-01-19.
+Version 0.2005, released 2016-01-21.
 
 # SYNOPSIS
 
