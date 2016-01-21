@@ -23,13 +23,16 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.016000",
   "NAME" => "Map::Metro::Plugin::Map::Copenhagen",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Map::Metro::Plugin::Map" => "0.2300",
+    "Moose" => "2.0000"
+  },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.2005",
+  "VERSION" => "0.2006",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -39,6 +42,8 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "Map::Metro::Plugin::Map" => "0.2300",
+  "Moose" => "2.0000",
   "Test::More" => "0.96"
 );
 

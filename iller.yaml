@@ -8,6 +8,8 @@ prereqs:
   runtime:
     requires:
      - perl: 5.016000
+     - Moose: 2.0000
+     - Map::Metro::Plugin::Map: 0.2300
 
 plugins:
   - +config: Author::CSSON
@@ -15,7 +17,7 @@ plugins:
   - +extend_plugin: Git::GatherDir
     exclude_match:
       - \.png
-  
+
   - +plugin: MapMetro::MakeGraphViz
 
   - +plugin: MapMetro::MakeLinePod

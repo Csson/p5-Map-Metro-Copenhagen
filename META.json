@@ -96,6 +96,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Map::Metro::Plugin::Map" : "0.2300",
+            "Moose" : "2.0000",
             "perl" : "5.016000"
          }
       },
@@ -113,7 +115,7 @@
    "provides" : {
       "Map::Metro::Plugin::Map::Copenhagen" : {
          "file" : "lib/Map/Metro/Plugin/Map/Copenhagen.pm",
-         "version" : "0.2005"
+         "version" : "0.2006"
       }
    },
    "release_status" : "stable",
@@ -128,6 +130,6 @@
          "web" : "https://github.com/Csson/p5-Map-Metro-Copenhagen"
       }
    },
-   "version" : "0.2005"
+   "version" : "0.2006"
 }
 
