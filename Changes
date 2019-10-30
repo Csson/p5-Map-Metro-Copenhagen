@@ -1,7 +1,8 @@
 Revision history for Map-Metro-Plugin-Map-Copenhagen
 
 {{$NEXT}}
- [API Changes]
+ [Map Changes]
+ - Added the new M3 line
 
  [Bug Fixes]
 
@@ -14,9 +15,13 @@ Revision history for Map-Metro-Plugin-Map-Copenhagen
  [Other Changes]
 
  [Requirements]
-  - Add missing prereqs (after removing cpanfile): Moose and Map::Metro::Plugin::Map
 
  [Testing]
+
+0.2006 2016-01-21T11:47:51Z UTC
+ [Requirements]
+ - Add missing prereqs (after removing cpanfile): Moose and
+   Map::Metro::Plugin::Map
 
 0.2005 2016-01-21T00:10:33Z UTC
  [Other Changes]
