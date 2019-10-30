@@ -2,8 +2,9 @@ use 5.16.0;
 
 package Map::Metro::Plugin::Map::Copenhagen;
 
-# VERSION
 # ABSTRACT: Map::Metro map for Copenhagen
+# AUTHORITY
+our $VERSION = '0.2007';
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
