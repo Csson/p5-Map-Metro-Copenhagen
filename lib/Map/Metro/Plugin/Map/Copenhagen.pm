@@ -4,7 +4,7 @@ package Map::Metro::Plugin::Map::Copenhagen;
 
 # ABSTRACT: Map::Metro map for Copenhagen
 # AUTHORITY
-our $VERSION = '0.2007';
+our $VERSION = '0.2008';
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
