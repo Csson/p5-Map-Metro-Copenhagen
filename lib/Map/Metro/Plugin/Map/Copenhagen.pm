@@ -41,7 +41,7 @@ See L<Map::Metro> for usage information.
 This map includes:
 
 =for :list
-* Both lines of the Copenhagen metro (L<wikipedia|https://en.wikipedia.org/wiki/Copenhagen_metro>)
+* All three current lines (as of 2019-10-29) of the Copenhagen metro (L<wikipedia|https://en.wikipedia.org/wiki/Copenhagen_metro>)
 
 =for HTML <p><a href="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Copenhagen/master/static/images/copenhagen.png"><img src="https://raw.githubusercontent.com/Csson/p5-Map-Metro-Copenhagen/master/static/images/copenhagen.png" style="max-width: 600px" /></a></p>
 
